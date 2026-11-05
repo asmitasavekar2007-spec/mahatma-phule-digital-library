@@ -35,3 +35,7 @@ Thumbs.db
 
 # Local development files
 .phpunit.cache/
+
+# Database dump protection
+*.sql
+!database/schema.sql
