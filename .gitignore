@@ -1,0 +1,37 @@
+
+# Environment and private configuration
+.env
+.env.*
+!.env.example
+config/local.php
+
+# Dependencies
+/vendor/
+
+# Logs and temporary files
+*.log
+*.tmp
+/tmp/
+
+# Database backups and dumps
+*.sql.gz
+*.bak
+/backups/
+/database/backups/
+
+# Uploaded private documents
+/backend/uploads/*
+!/backend/uploads/.gitkeep
+
+# User-generated files
+/uploads/*
+!/uploads/.gitkeep
+
+# IDE and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local development files
+.phpunit.cache/
